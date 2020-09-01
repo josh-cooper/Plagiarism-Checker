@@ -5,5 +5,5 @@ FROM gitpod/workspace-full
 # RUN brew install bastet
 #
 # More information: https://www.gitpod.io/docs/config-docker/
-RUN sudo apt-get install poppler-utils
-RUN sudo apt-get install catdoc
+RUN sudo apt-get install -y poppler-utils
+RUN sudo apt-get install -y catdoc
